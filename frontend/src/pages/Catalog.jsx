@@ -1,4 +1,3 @@
-import PixPayment from "../components/PixPayment.jsx";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api.js";
@@ -99,7 +98,6 @@ export default function Catalog() {
         </div>
       </section>
 
-      <PixPayment />
 
       <footer className="catalog-footer">
         <span>Atualizado pelo vendedor</span>
